@@ -93,7 +93,7 @@ color: red;
         height: 60vh;
         width: 310px;
         left: 0;
-        top: 68px;
+        top: 70px;
         width: 100%;
         background-color: black;
       }
@@ -102,6 +102,7 @@ color: red;
         color: #f9f9ff;
         text-align: center;
        padding: 10px;
+       margin: 10px;
         transition: all 0.5s ease;
       }
       
