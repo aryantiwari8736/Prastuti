@@ -203,6 +203,17 @@
 
 
 @media screen and (max-width:425px) {
+    .btn {
+
+        margin-top: 5vw;
+        font-size: 12px;
+        color: black;
+        background-color: #EEEBDD;
+        border: 2px solid #EEEBDD;
+        font-weight: bold;
+        padding: 3vh 3vw;
+        cursor: pointer;
+    }
     .bg-3{
         height: 70vh;
     }

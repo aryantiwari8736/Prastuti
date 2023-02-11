@@ -36,6 +36,7 @@
 }
 
 .rule-btn {
+  font-weight: 500;
     padding: 10px;
     margin: 2vmin;
     cursor: pointer;
