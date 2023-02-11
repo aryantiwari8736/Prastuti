@@ -90,7 +90,7 @@ color: red;
         display: block;
         list-style: none;
         transition: all 0.5s ease-out;
-        
+        height: 60vh;
         width: 310px;
         left: 0;
         top: 68px;
