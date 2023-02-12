@@ -88,6 +88,7 @@
     font-size: 6vmin;
     font-weight: bolder;
     background: transparent;
+    color: #EEEBDD;
 }
 
 .sec-eve-nam {
@@ -95,6 +96,7 @@
     font-weight: 950;
     cursor: pointer;
     background: transparent;
+    color: #EEEBDD;
 }
 
 
@@ -103,6 +105,7 @@
     font-size: 4vmin;
     font-weight: bold;
     background: transparent;
+    color: #EEEBDD;
 }
 
 .btn {
@@ -185,6 +188,7 @@
         font-size: 6vmin;
         letter-spacing: 10px;
         font-weight: bolder;
+
        }
        .font-2{
         font-size: 3vmin;

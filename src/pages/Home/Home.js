@@ -51,8 +51,8 @@ const Home = () => {
             <section className='sec-new bg-5 sec'>
                 <div className="eve-box"> <div className='sec-eve-day'>SUNDAY</div>
                 <div className='sec-eve-day' >2/3/2022</div>
-                <div className='sec-eve-nam'> <span className='land-head-span'>BATTLE</span> OF </div>
-                <div className='sec-eve-nam'>BANDS</div>
+                <div className='sec-eve-nam font-color'> BATTLE OF </div>
+                <div className='sec-eve-nam font-color'>BANDS</div>
                 <div className='sec-det-eve'>BAND WAR</div>
                 <button className='btn' >Get Ticket</button></div>
                
