@@ -12,7 +12,7 @@ const Navbar =()=>{
 
 
 
-    // const [icons,setIcon]=React.useState(false);
+    const [icons,setIcon]=React.useState(false);
 
     // const [user ,setUser] = useState({})
     // const handlCallbackResponse = async (response) => {
@@ -83,13 +83,13 @@ const Navbar =()=>{
             <Link className="item"  to="/contact">ContactUs</Link>
           </li> */}
           
-          <li className='item' id='signInDiv'></li>
-       {Object.keys(user).length != 0 && <li className='item' onClick={(e)=>handleSignOut(e)}>SignOut</li>}   
+          {/* <li className='item' id='signInDiv'></li>
+       {Object.keys(user).length != 0 && <li className='item' onClick={(e)=>handleSignOut(e)}>SignOut</li>}    */}
 
-        { user && 
+        {/* { user && 
        <div className='det'> <li className='item'> <img className='acc-img' src={user.picture} alt="user-piture" /></li>
          <div className='name'>{user.name}</div></div>
-          } 
+          }  */}
           
          
         </ul>
