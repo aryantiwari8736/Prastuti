@@ -25,7 +25,7 @@ const Home = () => {
                 <EventCard />
             </section>
             <section className='bg-2 sec sec-new'>
-                <div className='sec-eve-nam'><span className='land-head-span'>UPCOMING</span>  EVENTS</div>
+                <div className='sec-eve-nam font-color'>UPCOMING EVENTS</div>
                 <div className='sec-det-eve'>Best Music Events</div>
             </section>
             <section className=' sec-new bg-3 sec'>
@@ -41,7 +41,7 @@ const Home = () => {
             <div className="eve-box">
                 <div className='sec-eve-day'>SATURDAY</div>
                 <div className='sec-eve-day' >2/3/2022</div>
-                <div className='sec-eve-nam'><span className='land-head-span'>PRAC</span>HAND</div>
+                <div className='sec-eve-nam font-color'>PRACHAND</div>
                 <div className='sec-det-eve'>NUKKAD NATAK</div>
                 
                 <button className='btn' >Get Ticket</button>
@@ -64,7 +64,7 @@ const Home = () => {
                 <button className='btn'>ALL GALARY</button>
             </section> */}
             <section className='bg-6 sec sec-new'>
-                <div className="sec-eve-nam">VENUE & INFO</div>
+                <div className="sec-eve-nam ">VENUE & INFO</div>
                 <div className="sec-det-eve">Have Some Questi<span className='land-head-span'>ons?</span></div>
                 <section className='venue'>
                     <div className='icon-card'>
@@ -88,7 +88,7 @@ const Home = () => {
                 </section>
             </section>
             <section className="bg-7 sec sec-new">
-                <div className="sec-eve-nam "><span className='land-head-span'>Epo</span>que @ <span className='land-head-span'>PRAS</span>TUTI</div>
+                <div className="sec-eve-nam font-color">Epoque @ PRASUTI</div>
                 <div className="venue gap">
                    <a className='icon-link' target="_blank" href="https://www.facebook.com/kiet.edu/posts/pfbid0Bs8XHXeKWn2VpDZfxioj45cYMiEhEs9i1bC4rwgWxUBLxNi4PTZa31fdPN4SERQEl"><FaFacebookF className='footer-icon'/></a> 
                    <a className='icon-link' target="_blank" href="https://www.instagram.com/p/CoZPxDcPmOW/?utm_source=ig_web_copy_link"><AiOutlineInstagram className='footer-icon'/></a> 

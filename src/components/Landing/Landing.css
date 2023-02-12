@@ -16,7 +16,12 @@
 }
 
 .font-3 {
-  color: #810000;
+ 
+  background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
   font-size: 12vmin;
   font-weight: 950;
   margin: 2vmin;
@@ -30,8 +35,14 @@
 
 }
 .font-5 {
+
+  background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
     font-size: 3vmin;
-  color: #810000;
+  
   margin: 2vmin;
 }
 

@@ -21,7 +21,7 @@ const SingElement = () => {
     <>
     
     <section className="single-event-section">
-      <h1 className="eve-head-1">{single_event[0].title}</h1>
+      <h1 className="eve-head-1 font-color">{single_event[0].title}</h1>
       {/* sec-1  */}
     <div className="eve-sing-cont">
  <div className="des-cont">
@@ -38,7 +38,7 @@ const SingElement = () => {
 
 {/* /sec-2 */}
     <div className="eve-desc">
-      <div className="eve-head-3">Rules  & Regulations </div>
+      <div className="eve-head-3 font-color">Rules  & Regulations </div>
    <ul className="rule">
     <li>TEAM MEMBER: 15</li>
     <li>TIME: Max. 20 mins.</li>
@@ -56,7 +56,7 @@ All participants will get the participation Certificate
 {/* sec-3  */}
 <section className=' grid-container eve-gallary'>
         <div className="grid-element grid-elementbase">
-          <div className='gal-font-eve'>EVENTS GALLERY </div>
+          <div className='gal-font-eve font-color'>EVENTS GALLERY </div>
           <div className='font-2'>Highlights of The Event</div>
         </div>
         <div className="grid-element grid-element1" style={{
