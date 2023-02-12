@@ -14,53 +14,52 @@ const Navbar =()=>{
 
     const [icons,setIcon]=React.useState(false);
 
-    // const [user ,setUser] = useState({})
-    // const handlCallbackResponse = async (response) => {
-    //   console.log("Encoded JWT ID token :" + response.credential);
-    //   var userObject = jwt_decode(response.credential);
-    //   console.log(userObject);
-    //   const name = userObject.name;
-    //   const email = userObject.email;
-    //   setUser(userObject)
-    //   console.log(name,email);
+    const [user ,setUser] = useState({})
+    const handlCallbackResponse = async (response) => {
+      console.log("Encoded JWT ID token :" + response.credential);
+      var userObject = jwt_decode(response.credential);
+      console.log(userObject);
+      const name = userObject.name;
+      const email = userObject.email;
+      setUser(userObject)
+      console.log(name,email);
       
     //   await axios.post("http://localhost:8000/api/register",{name,email});
 
 
 
-//farzi
-      // await fetch("http://localhost:8000/api/register",{
-      //   method:"post",
-      //   body: name
-      // }).then(()=>{
-      //   (response) => response.json()
+      await fetch("http://localhost:8000/api/register",{
+        method:"post",
+        body: name
+      }).then(()=>{
+        (response) => response.json()
        
-      // console.log("created successful")
-      // }).catch((err)=>{
-      //   console.log(err);
-      // })
+      console.log("created successful")
+      }).catch((err)=>{
+        console.log(err);
+      })
 
-//farzi end
 
-//       document.getElementById("signInDiv").hidden = true;
-//     };
-//   function handleSignOut (event){
-// setUser({});
-// document.getElementById("signInDiv").hidden = false;
-//   }
 
-//     useEffect(() => {
-//       google.accounts.id.initialize({
-//         client_id:
-//           "202344661656-6ru3hfl7tlmmc4eeh87vjk5ltjmhccma.apps.googleusercontent.com",
-//         callback: handlCallbackResponse,
-//       });
-//       google.accounts.id.renderButton(document.getElementById("signInDiv"), {
-//         theme: "outline",
-//         size: "medium",
-//       });
-//       google.accounts.id.prompt();
-//     }, []);
+      document.getElementById("signInDiv").hidden = true;
+    };
+  function handleSignOut (event){
+setUser({});
+document.getElementById("signInDiv").hidden = false;
+  }
+
+    useEffect(() => {
+      google.accounts.id.initialize({
+        client_id:
+          "202344661656-6ru3hfl7tlmmc4eeh87vjk5ltjmhccma.apps.googleusercontent.com",
+        callback: handlCallbackResponse,
+      });
+      google.accounts.id.renderButton(document.getElementById("signInDiv"), {
+        theme: "outline",
+        size: "medium",
+      });
+      google.accounts.id.prompt();
+    }, []);
 
 
   return (
@@ -84,14 +83,14 @@ const Navbar =()=>{
             <Link className="item"  to="/contact">ContactUs</Link>
           </li> */}
           
-          {/* <li className='item' id='signInDiv'></li>
+          <li className='item' id='signInDiv'></li>
        {Object.keys(user).length != 0 && <li className='item' onClick={(e)=>handleSignOut(e)}>SignOut</li>}   
 
         { user && 
        <div className='det'> <li className='item'> <img className='acc-img' src={user.picture} alt="user-piture" /></li>
          <div className='name'>{user.name}</div></div>
           } 
-           */}
+          
          
         </ul>
        <button className="nav-icon"
